@@ -76,8 +76,6 @@ function App() {
   const handleSubmit = (event) => {
     event.preventDefault();
     solve();
-    console.log(state.X)
-    console.log(state.Y)
     setState(values => ({...values, isRunning: ! state.isRunning}))
     setState(values => ({...values, t: 1}))
     
