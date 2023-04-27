@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { AiOutlineInfoCircle } from "react-icons/ai";
 import img from './img.png'
+import React from 'react';
 
 const initialState = {
   a:1,
